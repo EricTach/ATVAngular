@@ -16,12 +16,12 @@ export class ReportsComponent implements OnInit {
   }
 
   chart: ChartDetails = {
-    title: 'Lançamento de carros por ano',
-    categories: ['1', '2', '3'],
+    title: '5 perguntas com maior nota GPTW',
+    categories: ['A liderança é competente para tocar o negócio', 'A liderança age de acordo com o que fala', 'Eu recebo os equipamentos e recursos necessários para realizar meu trabalho'],
     series: [
       {
         name: 'Carros por ano',
-        data: [20, 30, 40],
+        data: [88, 85, 80],
       },
     ],
   };
