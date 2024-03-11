@@ -16,7 +16,7 @@ export class ReportsComponent implements OnInit {
   }
 
   chart: ChartDetails = {
-    title: '5 perguntas com maior nota GPTW',
+    title: '3 perguntas com maior nota GPTW',
     categories: ['A liderança é competente para tocar o negócio', 'A liderança age de acordo com o que fala', 'Eu recebo os equipamentos e recursos necessários para realizar meu trabalho'],
     series: [
       {
